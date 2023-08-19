@@ -18,6 +18,7 @@ public class SaveUser {
 		int id=(Integer) s.save(u);
 		Transaction t=s.beginTransaction();
 		t.commit();
+		System.out.println("user registered with id:"+id);
 	}
 
 }
