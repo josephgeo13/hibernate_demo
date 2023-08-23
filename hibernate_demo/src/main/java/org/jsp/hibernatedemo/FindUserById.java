@@ -22,6 +22,7 @@ public class FindUserById {
 		{
 			System.err.println("You have entered Invalid id");
 		}
+		sc.close();
 	}
 
 }

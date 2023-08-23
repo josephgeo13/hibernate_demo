@@ -27,6 +27,7 @@ public class UpdateUser {
 		s.update(u);//saveOrUpdate
 		Transaction t=s.beginTransaction();
 		t.commit();
+		sc.close();
 		
 	}
 
